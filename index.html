@@ -12,6 +12,17 @@ body {
     background: #F3E7D8;
     color: #3A2F28;
     line-height: 1.6;
+    .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.photo-grid img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 header {
     background: #5A3E2B;
@@ -133,7 +144,20 @@ footer {
 
 </div>
 </section>
+<section>
+  <h2>Подологический центр</h2>
+  <p>
+    Наш подологический центр находится в Алматы, по адресу
+    улица Гоголя, дом 100. Комфортный кабинет, современное оборудование
+    и спокойная атмосфера.
+  </p>
 
+  <div class="photo-grid">
+    <img src="IMG_0305.jpeg" alt="Подологический центр Алматы">
+    <img src="IMG_0306.jpeg" alt="Кабинет подолога">
+    <img src="IMG_0307.jpeg" alt="Оборудование подологического кабинета">
+  </div>
+</section>
 <section>
 <h2>Контакты</h2>
 <p><strong>Подолог</strong></p>
