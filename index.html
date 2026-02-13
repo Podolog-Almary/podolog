@@ -12,6 +12,7 @@ body {
     background: #F3E7D8;
     color: #3A2F28;
     line-height: 1.6;
+}
     .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -87,27 +88,74 @@ footer {
     text-decoration: none;
     font-weight: bold;
 }
+ .hero {
+    background: linear-gradient(135deg, #5a3a28, #7a5236);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.address {
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.cta-box {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.btn-main {
+    display: inline-block;
+    background: #e6c79c;
+    color: #3b2a1e;
+    padding: 16px 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 15px;
+}   
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>Удаление бородавок в Алматы</h1>
+<header class="hero">
+  <div class="hero-content">
+    <h1>Удаление бородавок в Алматы</h1>
 
-<p><strong>📷 Бесплатная оценка по фотографии</strong></p>
+    <p class="subtitle">
+      Без боли • Без лазера • Химическая деструкция
+    </p>
 
-<p>Без боли • Без лазера • Химическая деструкция</p>
-<p>Алматы, Гоголя 100</p>
+    <p class="address">
+      Алматы, ул. Гоголя 100
+    </p>
 
-<p>Не уверены, что это бородавка? Отправьте фото и получите предварительную оценку специалиста.</p>
+    <div class="cta-box">
+      <p class="cta-text">
+        📸 Бесплатная предварительная оценка по фото
+      </p>
 
-<a class="btn" 
-href="https://wa.me/77057839684?text=Здравствуйте.%20Хочу%20отправить%20фото%20бородавки%20для%20бесплатной%20оценки.">
-📷 Отправить фото бесплатно
-</a>
+      <a class="btn-main" href="https://wa.me/77057839684">
+        Отправить фото специалисту
+      </a>
+    </div>
+  </div>
 </header>
-
 <section>
 <h2>Что такое подошвенные бородавки?</h2>
 <p>
